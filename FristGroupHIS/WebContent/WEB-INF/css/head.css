@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+#head{
+	position: relative;
+	height: 70px;
+	background: red;
+}
+#user{
+	position: absolute;
+	right: 50px;
+	top: 15px;
+}

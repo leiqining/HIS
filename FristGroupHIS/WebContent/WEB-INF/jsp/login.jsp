@@ -20,10 +20,15 @@
 			</tr>
 			<tr>
 				<td><input type="submit" value="登录"></td>
-				<td><input type="reset" ></td>
+				<td><input type="button" onclick="regist()" value="注册"></td>
 			</tr>
 		</table>
 	</form>
 	</div>
+	<script type="text/javascript">
+		function regist(){
+			window.location.href="gotoRegist.do";
+		}
+	</script>
 </body>
 </html>
